@@ -142,14 +142,14 @@ const MainBanner = () => {
             <div
               className="mt-4 md:mt-0 md:mx-4 rounded-xl relative flex md:hidden lg:flex md:justify-center md:items-center p-4 md:p-0 md:px-4"
               style={{
-                backgroundImage: "url(/images/L-1.png)",
+                backgroundImage: "url(/images/L1.png)",
                 backgroundRepeat: "no-repeat",
                 // backgroundPosition: "center",
                 backgroundSize: "cover",
               }}
             >
               <img
-                src="/images/L-2.png"
+                src="/images/L2.png"
                 className="w-full md:w-auto"
               />
             </div>
@@ -188,7 +188,7 @@ const MainBanner = () => {
         <div
           className="mt-4 md:mt-0 md:mx-4 w-full md:w-1/2 rounded-xl relative flex lg:hidden"
           style={{
-            backgroundImage: "url(/images/L-1.png)",
+            backgroundImage: "url(/images/L1.png)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",
@@ -196,7 +196,7 @@ const MainBanner = () => {
         >
           <div className="rounded-xl w-full h-full">
             <img
-              src="/images/L-2.png"
+              src="/images/L2.png"
               className="p-4 w-full object-cover h-full rounded-xl"
             />
           </div>
