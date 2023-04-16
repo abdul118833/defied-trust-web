@@ -13,9 +13,9 @@ const Catagory = () => {
                 }}
             >
                 <div className="flex flex-col justify-center items-center">
-                    <img src="/images/c-1.png" className="rounded-t-xl md:rounded-t-none"/>
+                    <img src="/images/c-1.png" className="rounded-t-xl md:rounded-t-none" />
                     <img src="/images/c-2.png" className="my-2" />
-                    <img src="/images/c-3.png" className="rounded-b-xl md:rounded-b-none"/>
+                    <img src="/images/c-3.png" className="rounded-b-xl md:rounded-b-none" />
                 </div>
                 <div className="w-full md:w-5/6 flex md:justify-center md:items-center">
                     <div className="w-full md:w-4/5 md:p-3">

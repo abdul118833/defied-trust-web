@@ -140,20 +140,18 @@ const MainBanner = () => {
               </div>
             </div>
             <div
-              className="mt-4 md:mt-0 md:mx-4 w-full md:w-1/3 rounded-xl relative flex md:hidden lg:flex"
+              className="mt-4 md:mt-0 md:mx-4 rounded-xl relative flex md:hidden lg:flex md:justify-center md:items-center p-4 md:p-0 md:px-4"
               style={{
                 backgroundImage: "url(/images/L-1.png)",
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
+                // backgroundPosition: "center",
                 backgroundSize: "cover",
               }}
             >
-              <div className="rounded-xl w-full h-full">
-                <img
-                  src="/images/L-2.png"
-                  className="p-4 w-full object-cover h-full rounded-xl"
-                />
-              </div>
+              <img
+                src="/images/L-2.png"
+                className="w-full md:w-auto"
+              />
             </div>
           </div>
         </div>
