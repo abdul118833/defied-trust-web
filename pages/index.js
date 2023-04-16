@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-        <div className="mx-auto xl:container">
+        <div className="mx-auto xl:container overflow-x-hidden">
           <Navbar />
           <MainBanner />
           <Catagory />
